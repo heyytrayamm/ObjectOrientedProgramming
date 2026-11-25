@@ -440,7 +440,6 @@ Suggestions that improve correctness, readability, and learning value are especi
 </p>
 
 <p align="center">
-  <b>Trayam Roy</b><br/>
 </p>
 
 <p align="center">
