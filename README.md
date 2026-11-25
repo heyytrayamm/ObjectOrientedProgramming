@@ -1,68 +1,90 @@
-# Object-Oriented Programming in Java
+# ☕ Object-Oriented Programming in Java
 
-A structured collection of Java programs and practical examples covering core Java concepts and object-oriented programming principles.
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/IDE-IntelliJ%20IDEA-black?style=for-the-badge&logo=intellijidea&logoColor=white" />
+  <img src="https://img.shields.io/badge/Version%20Control-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Platform-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</p>
 
-This repository documents my learning journey through Java, with individual programs demonstrating concepts through implementation, experimentation, and practice.
+<p align="center">
+  <b>A practical collection of Java programs exploring Object-Oriented Programming, Core Java, and essential programming concepts.</b>
+</p>
 
-## Overview
+<p align="center">
+  <a href="#-overview">Overview</a> •
+  <a href="#-topics-covered">Topics</a> •
+  <a href="#-repository-structure">Structure</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-roadmap">Roadmap</a>
+</p>
 
-The repository is organized by topic, making it easier to explore individual concepts and understand how they are implemented in Java.
+---
 
-It covers fundamental programming constructs, object-oriented design principles, Java Collections, exception handling, file operations, and multithreading.
+## 📌 Overview
 
-The primary objective is to develop a strong understanding of Java fundamentals and build a foundation for more advanced application development and problem-solving.
+This repository contains a structured collection of Java programs developed while learning and practising **Object-Oriented Programming (OOP)** and Core Java.
 
-## Topics Covered
+Each topic is organized into its own directory, with independent examples demonstrating concepts through practical implementation.
 
-### 1. Object-Oriented Programming
+The repository focuses on understanding how Java works, how object-oriented principles are applied, and how individual programming concepts come together to form maintainable software.
 
-| Concept | Description |
+**The goal is simple:** build a strong foundation in Java through consistent coding and hands-on experimentation.
+
+## 🎯 Topics Covered
+
+### 01. Object-Oriented Programming
+
+| Topic | Concepts |
 |---|---|
-| Classes and Objects | Defining classes, creating objects, and working with instance members |
+| Classes & Objects | Classes, objects, fields, and methods |
 | Constructors | Default, parameterized, and overloaded constructors |
-| Encapsulation | Data hiding using access modifiers, getters, and setters |
-| Inheritance | Reusing and extending existing classes |
-| Polymorphism | Method overloading, overriding, and runtime polymorphism |
-| Abstraction | Abstract classes and abstract methods |
-| Interfaces | Defining contracts and implementing multiple interfaces |
-| Aggregation | Representing relationships between independent objects |
-| Composition | Building objects using dependent component objects |
-| `this` and `super` | Referring to current and parent-class members |
-| Static Members | Understanding class-level variables and methods |
-| `toString()` | Providing meaningful object representations |
-| Anonymous Classes | Creating one-time class implementations |
+| Encapsulation | Getters, setters, and data hiding |
+| Inheritance | Parent and child classes |
+| Polymorphism | Method overloading and overriding |
+| Runtime Polymorphism | Dynamic method dispatch |
+| Abstraction | Abstract classes and methods |
+| Interfaces | Interface implementation |
+| Aggregation | Relationships between independent objects |
+| Composition | Object ownership and dependencies |
+| Anonymous Classes | Anonymous class implementations |
+| `this` & `super` | Current and parent-class references |
+| Static | Static variables and methods |
+| `toString()` | Object representation |
 
-### 2. Java Fundamentals
+### 02. Core Java
 
-- Primitive and wrapper classes
-- Enumerations (`enum`)
-- Date and time API
 - Arrays and arrays of objects
-- ArrayList
+- ArrayList and Collections
 - HashMap
 - Generics
+- Wrapper Classes
+- Enumerations (`enum`)
+- Date and Time API
 
-### 3. Exception Handling and File Operations
+### 03. Exception Handling & File I/O
 
-- Exception handling using `try`, `catch`, and `finally`
-- Handling common runtime exceptions
-- Reading files using Java I/O
-- Writing data to files
-- Resource management using try-with-resources
+- Exception handling
+- `try`, `catch`, and `finally`
+- Input mismatch and arithmetic exceptions
+- Reading files
+- Writing files
+- BufferedReader and FileWriter
 
-### 4. Multithreading and Timers
+### 04. Multithreading & Timers
 
-- Creating and executing threads
-- Implementing the `Runnable` interface
-- Thread lifecycle and execution
+- Thread creation and execution
+- Runnable interface
 - Daemon threads
-- Thread synchronization concepts
+- Thread management
 - Timer and TimerTask
 - Countdown timer implementation
 
-## Repository Structure
+---
 
-Each directory focuses on a particular Java concept and contains the corresponding source-code examples.
+## 🗂️ Repository Structure
+
+The repository follows a topic-based structure to keep examples organized and easy to navigate.
 
 ```text
 ObjectOrientedProgramming/
@@ -74,11 +96,12 @@ ObjectOrientedProgramming/
 ├── Array of objects/
 ├── Composition/
 ├── Constructor/
+├── COUNTDOWN TIMER/
 ├── DateTime/
 ├── Enums/
 ├── Exception Handling/
-├── Generics/
 ├── GETTER SETTER Methods/
+├── Generics/
 ├── HashMaps/
 ├── Inheritance/
 ├── Interface/
@@ -98,15 +121,49 @@ ObjectOrientedProgramming/
 └── Write files/
 ```
 
-*Note: The repository structure may evolve as additional concepts and examples are added.*
+Each directory contains source files dedicated to its respective concept. Many examples include their own `Main.java` entry point.
 
-## Getting Started
+---
+
+## 💻 Technology Stack
+
+<p align="center">
+  <a href="https://www.java.com/">
+    <img src="https://skillicons.dev/icons?i=java" height="65" alt="Java" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.jetbrains.com/idea/">
+    <img src="https://skillicons.dev/icons?i=idea" height="65" alt="IntelliJ IDEA" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://git-scm.com/">
+    <img src="https://skillicons.dev/icons?i=git" height="65" alt="Git" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/">
+    <img src="https://skillicons.dev/icons?i=github" height="65" alt="GitHub" />
+  </a>
+</p>
+
+| Technology | Usage |
+|---|---|
+| **Java** | Primary programming language |
+| **JDK** | Java compilation and execution |
+| **IntelliJ IDEA** | Development environment |
+| **Git** | Version control |
+| **GitHub** | Repository hosting and project tracking |
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
+Make sure you have the following installed:
+
 - Java Development Kit (JDK)
-- IntelliJ IDEA, Eclipse, or another Java-compatible IDE
-- Basic understanding of programming fundamentals
+- IntelliJ IDEA or another Java-compatible IDE
+- Git
 
 ### Clone the Repository
 
@@ -120,55 +177,75 @@ Navigate to the project directory:
 cd ObjectOrientedProgramming
 ```
 
-### Run a Program
+### Run the Programs
 
-1. Open the repository in your preferred Java IDE.
-2. Navigate to the directory containing the concept you want to explore.
-3. Open the corresponding `.java` file.
+1. Open the repository in IntelliJ IDEA.
+2. Navigate to the topic you want to explore.
+3. Open the corresponding Java source file.
 4. Run the class containing the `main()` method.
 
-**Important:** Many directories contain independent examples with their own `Main` classes. Run individual examples separately rather than compiling every source file in the repository together.
-
-## Learning Approach
-
-The examples are intended to support a progressive understanding of Java:
-
-1. Understand the syntax and purpose of a concept.
-2. Examine its implementation in the corresponding source files.
-3. Execute the program and observe its behaviour.
-4. Modify the code and experiment with different scenarios.
-5. Apply the concept in larger programs.
-
-## Development Environment
-
-| Tool / Technology | Purpose |
-|---|---|
-| Java | Programming language |
-| JDK | Compilation and execution |
-| IntelliJ IDEA | Primary development environment |
-| Git | Version control |
-| GitHub | Source-code hosting and project tracking |
-
-## Planned Improvements
-
-As the repository develops, I intend to:
-
-- Improve naming conventions and code consistency.
-- Add meaningful comments and explanations where necessary.
-- Include more practical examples for individual concepts.
-- Add examples demonstrating real-world applications of OOP principles.
-- Introduce small Java projects that combine multiple concepts.
-- Improve input validation and exception handling across programs.
-
-## About
-
-**Trayam Roy**  
-
-
-GitHub: [@heyytrayamm](https://github.com/heyytrayamm)
-
-This repository is part of my ongoing practice in Java programming, object-oriented design, and software development fundamentals.
+> **Note:** Several directories contain independent programs with their own `Main` classes. Run individual examples separately rather than compiling the entire repository as one Java project.
 
 ---
 
-*Learning the fundamentals. Writing better code. Building consistently.*
+## 📚 Learning Roadmap
+
+The repository is continuously evolving as I explore more Java concepts and improve existing implementations.
+
+- [x] Classes and Objects
+- [x] Constructors and Constructor Overloading
+- [x] Encapsulation
+- [x] Inheritance
+- [x] Polymorphism
+- [x] Abstraction
+- [x] Interfaces
+- [x] Aggregation and Composition
+- [x] Collections and Generics
+- [x] Exception Handling
+- [x] File Handling
+- [x] Multithreading
+- [ ] Advanced Java Concepts
+- [ ] Practical Java Applications
+- [ ] More Object-Oriented Design Examples
+
+---
+
+## 🔧 Future Improvements
+
+Some planned improvements for this repository include:
+
+- Improving code readability and naming consistency.
+- Adding meaningful comments and explanations.
+- Expanding examples with practical use cases.
+- Adding more advanced Java concepts.
+- Developing small projects combining multiple OOP principles.
+- Improving input validation and exception handling.
+
+## 🤝 Contributions & Feedback
+
+This is primarily a personal learning repository. Suggestions, corrections, and constructive feedback are welcome.
+
+If you find an issue or have an idea for improvement, feel free to open an issue or submit a pull request.
+
+---
+
+## 👨‍💻 Author
+
+**Trayam Roy**
+
+
+<p>
+  <a href="https://github.com/heyytrayamm">
+    <img src="https://img.shields.io/badge/GitHub-heyytrayamm-181717?style=for-the-badge&logo=github" alt="GitHub Profile" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <i>Learning Java, strengthening fundamentals, and writing better code — one concept at a time.</i>
+</p>
+
+<p align="center">
+  <sub>Maintained with consistency and a commitment to continuous learning.</sub>
+</p>
