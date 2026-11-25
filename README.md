@@ -441,7 +441,6 @@ Suggestions that improve correctness, readability, and learning value are especi
 
 <p align="center">
   <b>Trayam Roy</b><br/>
-  B.Tech — Information Technology
 </p>
 
 <p align="center">
