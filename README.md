@@ -1,105 +1,68 @@
-# ☕ Object Oriented Programming in Java
+# Object-Oriented Programming in Java
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
-  <img src="https://img.shields.io/badge/IDE-IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"/>
-  <img src="https://img.shields.io/badge/Focus-OOP%20%26%20Core%20Java-blue?style=for-the-badge&logo=java&logoColor=white" alt="OOP and Core Java"/>
-  <img src="https://img.shields.io/badge/Status-Learning%20%26%20Practice-success?style=for-the-badge" alt="Learning and Practice"/>
-</p>
+A structured collection of Java programs and practical examples covering core Java concepts and object-oriented programming principles.
 
-<p align="center">
-  <b>A collection of Java programs, practical examples, and concept-based implementations built while learning Core Java and Object-Oriented Programming.</b>
-</p>
+This repository documents my learning journey through Java, with individual programs demonstrating concepts through implementation, experimentation, and practice.
 
-<p align="center">
-  <a href="https://github.com/heyytrayamm/ObjectOrientedProgramming">Repository</a> •
-  <a href="#-topics-covered">Topics</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-learning-roadmap">Learning Roadmap</a>
-</p>
+## Overview
 
----
+The repository is organized by topic, making it easier to explore individual concepts and understand how they are implemented in Java.
 
-## 📌 About This Repository
+It covers fundamental programming constructs, object-oriented design principles, Java Collections, exception handling, file operations, and multithreading.
 
-Welcome to my **Object Oriented Programming in Java** repository!
+The primary objective is to develop a strong understanding of Java fundamentals and build a foundation for more advanced application development and problem-solving.
 
-This repository documents my journey of learning Java, starting with fundamental programming concepts and gradually moving towards object-oriented principles and more advanced Core Java features.
+## Topics Covered
 
-It contains individual programs that demonstrate how Java concepts work through simple, practical examples. Each topic is organized into its own directory to make learning, revisiting, and experimenting with code easier.
+### 1. Object-Oriented Programming
 
-### 🎯 Objectives
-
-- Build a strong foundation in Java programming.
-- Understand the four pillars of Object-Oriented Programming.
-- Learn how objects interact with one another.
-- Explore Java's built-in features and Collections Framework.
-- Develop problem-solving and programming skills.
-- Prepare for Java-based Data Structures and Algorithms (DSA).
-
----
-
-## 🧠 Topics Covered
-
-The repository covers a range of Java concepts, organized into learning categories.
-
-### 1. Java & OOP Fundamentals
-
-| Topic | Concepts |
+| Concept | Description |
 |---|---|
-| Object | Classes, objects, fields and methods |
-| Constructors | Object initialization |
-| Overloaded Constructor | Constructor overloading |
-| Static | Static variables and shared class members |
-| Getter & Setter Methods | Encapsulation and controlled access |
-| `this` | Current object reference |
-| `super` | Parent class reference |
-| `toString()` | Object representation |
+| Classes and Objects | Defining classes, creating objects, and working with instance members |
+| Constructors | Default, parameterized, and overloaded constructors |
+| Encapsulation | Data hiding using access modifiers, getters, and setters |
+| Inheritance | Reusing and extending existing classes |
+| Polymorphism | Method overloading, overriding, and runtime polymorphism |
+| Abstraction | Abstract classes and abstract methods |
+| Interfaces | Defining contracts and implementing multiple interfaces |
+| Aggregation | Representing relationships between independent objects |
+| Composition | Building objects using dependent component objects |
+| `this` and `super` | Referring to current and parent-class members |
+| Static Members | Understanding class-level variables and methods |
+| `toString()` | Providing meaningful object representations |
+| Anonymous Classes | Creating one-time class implementations |
 
-### 2. The Four Pillars of OOP
+### 2. Java Fundamentals
 
-| Pillar | Topics |
-|---|---|
-| **Encapsulation** | Getters, setters and data hiding |
-| **Inheritance** | Parent and child classes |
-| **Polymorphism** | Method overriding and runtime polymorphism |
-| **Abstraction** | Abstract classes and abstract methods |
-
-### 3. Object Relationships & Advanced OOP
-
-- **Aggregation** – Representing relationships between independent objects.
-- **Composition** – Building objects using other objects as components.
-- **Interfaces** – Defining contracts and implementing multiple interfaces.
-- **Anonymous Classes** – Creating classes without explicitly declaring a named class.
-- **Method Overriding** – Providing specialized implementations of inherited methods.
-- **Arrays of Objects** – Managing multiple object instances.
-
-### 4. Core Java Features
-
-- Generics
-- Wrapper Classes
-- Enums
+- Primitive and wrapper classes
+- Enumerations (`enum`)
+- Date and time API
+- Arrays and arrays of objects
 - ArrayList
 - HashMap
-- Exception Handling
-- Date and Time API
-- File Reading
-- File Writing
+- Generics
 
-### 5. Multithreading & Time-Based Programs
+### 3. Exception Handling and File Operations
 
-- Threads and Runnable
-- Multithreading
-- Thread execution and synchronization basics
-- Daemon Threads
+- Exception handling using `try`, `catch`, and `finally`
+- Handling common runtime exceptions
+- Reading files using Java I/O
+- Writing data to files
+- Resource management using try-with-resources
+
+### 4. Multithreading and Timers
+
+- Creating and executing threads
+- Implementing the `Runnable` interface
+- Thread lifecycle and execution
+- Daemon threads
+- Thread synchronization concepts
 - Timer and TimerTask
-- Countdown Timer
+- Countdown timer implementation
 
----
+## Repository Structure
 
-## 📂 Repository Structure
-
-The repository is organized into separate directories, with each directory focusing on a particular Java concept.
+Each directory focuses on a particular Java concept and contains the corresponding source-code examples.
 
 ```text
 ObjectOrientedProgramming/
@@ -109,14 +72,13 @@ ObjectOrientedProgramming/
 ├── Anonymous Class/
 ├── Array List/
 ├── Array of objects/
-├── COUNTDOWN TIMER/
 ├── Composition/
 ├── Constructor/
 ├── DateTime/
 ├── Enums/
 ├── Exception Handling/
-├── GETTER SETTER Methods/
 ├── Generics/
+├── GETTER SETTER Methods/
 ├── HashMaps/
 ├── Inheritance/
 ├── Interface/
@@ -133,189 +95,80 @@ ObjectOrientedProgramming/
 ├── TimerTasks/
 ├── toString Method/
 ├── Wrapper Class/
-├── Write files/
-│
-├── .gitignore
-└── README.md
+└── Write files/
 ```
 
-> Each topic directory contains its own Java source files and, in many cases, a `Main.java` file that demonstrates the concept.
+*Note: The repository structure may evolve as additional concepts and examples are added.*
 
----
-
-## 🚀 Getting Started
-
-You can clone this repository and run the programs locally using IntelliJ IDEA or any Java-supported IDE.
+## Getting Started
 
 ### Prerequisites
 
-Make sure you have:
+- Java Development Kit (JDK)
+- IntelliJ IDEA, Eclipse, or another Java-compatible IDE
+- Basic understanding of programming fundamentals
 
-- Java Development Kit (JDK) installed.
-- IntelliJ IDEA, VS Code, or another Java IDE.
-- Basic knowledge of programming fundamentals.
-
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/heyytrayamm/ObjectOrientedProgramming.git
 ```
 
-### 2. Navigate to the Project
+Navigate to the project directory:
 
 ```bash
 cd ObjectOrientedProgramming
 ```
 
-### 3. Open in IntelliJ IDEA
+### Run a Program
 
-1. Open IntelliJ IDEA.
-2. Select **Open Project**.
-3. Choose the cloned `ObjectOrientedProgramming` directory.
-4. Allow IntelliJ IDEA to configure the project.
+1. Open the repository in your preferred Java IDE.
+2. Navigate to the directory containing the concept you want to explore.
+3. Open the corresponding `.java` file.
+4. Run the class containing the `main()` method.
 
-### 4. Run a Program
+**Important:** Many directories contain independent examples with their own `Main` classes. Run individual examples separately rather than compiling every source file in the repository together.
 
-1. Open the directory of the topic you want to explore.
-2. Navigate to its `src` folder.
-3. Open the corresponding Java file.
-4. Run its `main()` method.
+## Learning Approach
 
-**Important:** Many directories contain classes with the same name, such as `Main`. Run each topic as an independent example rather than compiling every Java file in the repository together.
+The examples are intended to support a progressive understanding of Java:
 
----
+1. Understand the syntax and purpose of a concept.
+2. Examine its implementation in the corresponding source files.
+3. Execute the program and observe its behaviour.
+4. Modify the code and experiment with different scenarios.
+5. Apply the concept in larger programs.
 
-## 💻 Example
+## Development Environment
 
-Here's a simple example of runtime polymorphism from the repository's learning concepts:
-
-```java
-class Animal {
-    void speak() {
-        System.out.println("Animal makes a sound");
-    }
-}
-
-class Dog extends Animal {
-    @Override
-    void speak() {
-        System.out.println("Dog barks");
-    }
-}
-
-class Cat extends Animal {
-    @Override
-    void speak() {
-        System.out.println("Cat meows");
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-
-        Animal animal;
-
-        animal = new Dog();
-        animal.speak();
-
-        animal = new Cat();
-        animal.speak();
-    }
-}
-```
-
-**Output:**
-
-```text
-Dog barks
-Cat meows
-```
-
-This demonstrates how a parent-class reference can refer to different child-class objects and invoke their overridden methods at runtime.
-
----
-
-## 🗺️ Learning Roadmap
-
-The repository follows a progression from basic Java concepts towards more advanced programming topics.
-
-- [x] Java classes and objects
-- [x] Constructors and constructor overloading
-- [x] Encapsulation
-- [x] Inheritance
-- [x] Polymorphism
-- [x] Abstraction
-- [x] Interfaces
-- [x] Aggregation and composition
-- [x] Generics and wrapper classes
-- [x] Collections basics
-- [x] Exception handling
-- [x] File handling
-- [x] Multithreading fundamentals
-- [ ] Deeper Collections Framework practice
-- [ ] Lambda expressions and Stream API
-- [ ] Comparable and Comparator
-- [ ] Custom exception development
-- [ ] JDBC and database connectivity
-- [ ] Unit testing with JUnit
-- [ ] A complete Java OOP project
-
-*The checklist reflects the topics represented in this repository and the planned areas for further practice.*
-
----
-
-## 🛠️ Technologies & Tools
-
-| Technology | Purpose |
+| Tool / Technology | Purpose |
 |---|---|
-| Java | Primary programming language |
-| JDK | Java development and execution |
-| IntelliJ IDEA | Code editor and development environment |
+| Java | Programming language |
+| JDK | Compilation and execution |
+| IntelliJ IDEA | Primary development environment |
 | Git | Version control |
-| GitHub | Source code hosting and project management |
+| GitHub | Source-code hosting and project tracking |
+
+## Planned Improvements
+
+As the repository develops, I intend to:
+
+- Improve naming conventions and code consistency.
+- Add meaningful comments and explanations where necessary.
+- Include more practical examples for individual concepts.
+- Add examples demonstrating real-world applications of OOP principles.
+- Introduce small Java projects that combine multiple concepts.
+- Improve input validation and exception handling across programs.
+
+## About
+
+**Trayam Roy**  
+
+
+GitHub: [@heyytrayamm](https://github.com/heyytrayamm)
+
+This repository is part of my ongoing practice in Java programming, object-oriented design, and software development fundamentals.
 
 ---
 
-## 🌱 Future Improvements
-
-This repository will continue evolving as I explore more of Java.
-
-Some planned improvements include:
-
-- Refactoring examples using better coding conventions.
-- Improving encapsulation and access modifiers.
-- Adding more practical examples of Collections.
-- Exploring Java 8+ features such as Lambdas and Streams.
-- Adding comments and explanations to complex implementations.
-- Building larger applications that combine multiple OOP concepts.
-
----
-
-## 🤝 Contributions & Feedback
-
-This is primarily a personal learning repository, but suggestions, feedback, and improvements are always welcome!
-
-If you find an issue or have an idea for improving an example, feel free to open an issue or submit a pull request.
-
----
-
-## 👨‍💻 Author
-
-**Trayam Roy**
-
-
-<p>
-  <a href="https://github.com/heyytrayamm">
-    <img src="https://img.shields.io/badge/GitHub-heyytrayamm-181717?style=for-the-badge&logo=github" alt="GitHub Profile"/>
-  </a>
-</p>
-
----
-
-<p align="center">
-  <b>Learning by doing. Improving one program at a time. ☕</b>
-</p>
-
-<p align="center">
-  <i>Made with curiosity and Java.</i>
-</p>
+*Learning the fundamentals. Writing better code. Building consistently.*
